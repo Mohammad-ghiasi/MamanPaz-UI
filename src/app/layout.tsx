@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import ChakraBox from "@/providers/ChakraProvider";
-// import { RtlProvider } from '@/components/rtl-provider'
+import localFont from 'next/font/local'
 
-const inter = Inter({ subsets: ["latin"] });
+const gandom = localFont({ src: '../../public/fonts/Gandom.ttf' })
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
-      <body className={inter.className}>
+      <body className={gandom.className}>
         <ChakraBox>
             {children}
         </ChakraBox>
