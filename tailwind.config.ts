@@ -8,10 +8,36 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      padding: {
+        'navPXS': "6px",
+        'navPXL': "16px",
+        'navPYS': "6px",
+        'navPYL': "10px",
+      },
+      fontSize: {
+        'xsmall': "12px", // Extra small font size
+        'small': "14px", // Small font size
+        'base': "16px", // Base font size
+        'mediom': "18px", // Large font size
+        'larg': "20px", // Extra large font size
+        "xlarg": "24px", // 2x large font size
+        "2xlarg": "30px", // 3x large font size
+        "3xlarge": "36px", // 4x large font size
+        "4xlarg": "48px", // 5x large font size
+        "5xlarg": "64px", // 6x large font size
+      },
+      fontWeight: {
+        'extraLight': "200", 
+        'mamad': "700", 
+        'normal': "400", 
+        'medium': "500", 
+        'bold': "700",
+        'xBold': "900"
+      },
+      colors: {
+        'redButtons': '#FF5851',
+        'ProRedButtons': '#EF5350',
+        'grayText' : "#7890A5",
       },
     },
   },
