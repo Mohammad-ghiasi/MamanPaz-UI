@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       padding: {
-        'navPXS': "6px",
+        'navPXS': "11px",
         'navPXL': "16px",
         'navPYS': "6px",
         'navPYL': "10px",
       },
       fontSize: {
         'xsmall': "12px", // Extra small font size
-        'small': "14px", // Small font size
+        'small': "15px", // Small font size
         'base': "16px", // Base font size
         'mediom': "18px", // Large font size
         'larg': "20px", // Extra large font size

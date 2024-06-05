@@ -2,6 +2,7 @@
 import createCache from '@emotion/cache'
 import { ChakraProvider } from '@chakra-ui/react'
 import rtl from 'stylis-plugin-rtl'
+import theme from '@/themes/theme'
 
 const options = {
     rtl: { key: 'css-ar', stylisPlugins: [rtl] },
@@ -11,5 +12,5 @@ const options = {
 
 export default function ChakraBox({ children }: { children: React.ReactNode }) {
     const cache = createCache(options['rtl'])
-    return <ChakraProvider>{children}</ChakraProvider>
+    return <ChakraProvider theme={theme}>{children}</ChakraProvider>
 }
