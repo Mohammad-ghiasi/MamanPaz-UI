@@ -48,9 +48,6 @@ export default function Customers() {
       </Box>
 
       <Divider2 />
-
-
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, quas fugiat distinctio rem animi officiis accusantium sed. Ipsum quae assumenda cumque! Aspernatur alias distinctio commodi reiciendis sunt? Laudantium, deserunt recusandae?</p>
     </Box>
   )
 }
