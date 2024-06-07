@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/pagination';
+
 import ChakraBox from "@/providers/ChakraProvider";
 import localFont from 'next/font/local'
 import { Box, Button, HStack, IconButton, Spacer, Flex, Link } from '@chakra-ui/react';
