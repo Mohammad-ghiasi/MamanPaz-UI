@@ -13,7 +13,7 @@ export default function Information() {
                 <Box className='my-10 mx-5 md:mx-10 lg:mx-14 xl:mx-20'>
                     <Box className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-8 text-center">
                         {infoData?.map((item: IData) => (
-                           <InfoItem {...item} />
+                           <InfoItem key={item.title} {...item} />
                         ))}
                       
                     </Box>

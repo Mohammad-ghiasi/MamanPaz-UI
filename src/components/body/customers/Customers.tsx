@@ -31,7 +31,7 @@ export default function Customers() {
             modules={[Autoplay]}
           >
             {logosData?.map((item: logoData) => (
-              <SwiperSlide className='flex justify-center items-center'>
+              <SwiperSlide key={item.img} className='flex justify-center items-center'>
                 <Box className="flex justify-center items-center">
                   <Image
                     alt='logo-img'

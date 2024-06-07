@@ -11,7 +11,7 @@ export default function More() {
                     <Text textAlign='center' className='text-larg font-bold mt-7 mb-10'>چرا مامان‌پز را انتخاب کنیم؟</Text>
                     <Box className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-20 '>
                         {choosen.map((item: choosenitem) => (
-                            <Box className=''>
+                            <Box key={item.title} className=''>
                                 <Box className='bg-white rounded-lg overflow-hidden shadow-lg '>
                                     <Image
                                         alt='logo-img'
