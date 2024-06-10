@@ -6,6 +6,8 @@ import Information from "@/components/body/informaiton/Information";
 import Customers from "@/components/body/customers/Customers";
 import More from "@/components/body/more/More";
 import Comments from "@/components/body/comments/Comments";
+import TabBar from "@/components/body/tabs/Tabs";
+import Footer from "@/components/footer/Footer";
 
 
 
@@ -19,6 +21,8 @@ export default function Home() {
         <Customers />
         <More />
         <Comments />
+        <TabBar />
+        <Footer />
       </Box>
     </Box>
   );

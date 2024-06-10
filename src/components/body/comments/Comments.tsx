@@ -1,3 +1,8 @@
+"use client"
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/pagination';
+
 import Divider2 from "@/components/Divider2";
 import { Box, Flex, Text } from "@chakra-ui/react";
 
@@ -8,7 +13,8 @@ export default function Comments() {
         <Box className="flex justify-center items-center flex-col px-navPXS py-navPYS md:px-navPXL md:py-navPYL mb-8">
             <Text className="text-larg md:text-xlarg font-bold mt-8 mb-12" textAlign='center'>مشتریان مامان‌پز چه می‌گویند؟</Text>
             <Box className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Box className="shadow-md shadow-gray-400 rounded-2xl overflow-hidden mx-5 py-2 px-3">
+                
+                <Box className="shadow-md shadow-gray-400 rounded-2xl overflow-hidden mx-5 py-4 px-3">
                     <Flex direction="column" alignItems="center" textAlign="center" >
 
                         <Text fontSize="xl" fontWeight="bold" color="red.500" mb={2}>
@@ -24,7 +30,7 @@ export default function Comments() {
                     </Flex>
 
                 </Box>
-                <Box className="shadow-md shadow-gray-400 rounded-2xl overflow-hidden mx-5 py-2 px-3">
+                <Box className="shadow-md shadow-gray-400 rounded-2xl overflow-hidden mx-5 py-4 px-3">
                     <Flex direction="column" alignItems="center" textAlign="center" >
 
                         <Text fontSize="xl" fontWeight="bold" color="red.500" mb={2}>
@@ -40,7 +46,7 @@ export default function Comments() {
                     </Flex>
 
                 </Box>
-                <Box className="shadow-md shadow-gray-400 rounded-2xl overflow-hidden mx-5 py-2 px-3">
+                <Box className="shadow-md shadow-gray-400 rounded-2xl overflow-hidden mx-5 py-4 px-3">
                     <Flex direction="column" alignItems="center" textAlign="center" >
 
                         <Text fontSize="xl" fontWeight="bold" color="red.500" mb={2}>
@@ -56,7 +62,7 @@ export default function Comments() {
                     </Flex>
 
                 </Box>
-                <Box className="shadow-md shadow-gray-400 rounded-2xl overflow-hidden mx-5 py-2 px-3">
+                <Box className="shadow-md shadow-gray-400 rounded-2xl overflow-hidden mx-5 py-4 px-3">
                     <Flex direction="column" alignItems="center" textAlign="center" >
 
                         <Text fontSize="xl" fontWeight="bold" color="red.500" mb={2}>
